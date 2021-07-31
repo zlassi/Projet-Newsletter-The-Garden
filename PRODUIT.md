@@ -1,6 +1,6 @@
 # Tondeuse Mulching
 
-![Tondeuse mulching](ressources/tondeuse_mulching.jpeg)
+![Tondeuse mulching](ressources/tondeuse_mulching.jpg)
 
 ## Prix
 
