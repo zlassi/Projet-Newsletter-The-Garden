@@ -19,7 +19,11 @@ Créer, intégrer une maquette sur un sujet imposé et respecter les obligations
 
 La société "The Garden" situé à Auxerre fait appel à vos services pour la réalisation d'une newsletter pour promouvoir leur dernier produit : une tondeuse mulching en promotion.  
 
-D'autres produits de jardin sont à inclure.
+Vous devez aussi mettre en avant que le site Web propose des articles pour s'occuper de son jardin grâce à des trucs et astuces.
+
+Le client possède aussi une carte de fidélité permettant de cumuler des points afin de réaliser des économies.
+
+"The Garden" est disponible sur différents réseaux sociaux : Facebook, Twitter, Youtube.
 
 **La newsletter doit être responsive**, car une majorité de leurs clients lisent leurs newsletters sur mobile et doit pouvoir être consultable en ligne en cas de besoin.
 
