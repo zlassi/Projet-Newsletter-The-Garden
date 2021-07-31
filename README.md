@@ -17,7 +17,7 @@ Créer, intégrer une maquette sur un sujet imposé et respecter les obligations
 
 ## Description du projet
 
-La société "The Garden" fait appel à vos services pour la réalisation d'une newsletter pour promouvoir leur dernier produit : une tondeuse mulching en promotion.  
+La société "The Garden" situé à Auxerre fait appel à vos services pour la réalisation d'une newsletter pour promouvoir leur dernier produit : une tondeuse mulching en promotion.  
 
 D'autres produits de jardin sont à inclure.
 
