@@ -38,15 +38,16 @@ Le client possède aussi une carte de fidélité permettant de cumuler des point
 * [ ] Comprendre le projet
 * [ ] Réaliser un wireframe
 * [ ] Réaliser une maquette
-* [ ] Réaliser un kit UI
+* [ ] Intefration en utilisant le SASS
 * [ ] Répartition des tâches
 * [ ] Présenter son projet dans un README
 
 ## À penser
 
-* [ ] Utilisation des balises sémantiques HTML
+* [ ] Utilisation des balises sémantiques HTML5
+* [ ] Organiser son code SASS via différents fichiers
 * [ ] Commenter votre code
-* [ ] Vérifier sa conformité W3C
+* [ ] Vérifier la conformité HTML avec le validateur W3C
 
 ## Outil web
 
