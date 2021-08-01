@@ -13,7 +13,7 @@ Créer, intégrer une maquette sur un sujet imposé et respecter les obligations
 * Balsamiq / Whimsical (https://whimsical.com/wireframes)
 * Adobe XD / Illustrator / Photoshop
 * HTML
-* CSS / SASS
+* SASS
 
 ## Description du projet
 
