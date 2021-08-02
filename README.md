@@ -38,7 +38,7 @@ Le client possède aussi une carte de fidélité permettant de cumuler des point
 * [ ] Comprendre le projet
 * [ ] Réaliser un wireframe
 * [ ] Réaliser une maquette
-* [ ] Intefration en utilisant le SASS
+* [ ] Integration en utilisant le SASS
 * [ ] Répartition des tâches
 * [ ] Présenter son projet dans un README
 
