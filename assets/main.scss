@@ -3,251 +3,69 @@ $colors: (
   grey: #707070,
   dark-green: #224127,
   medium-green: #219e13,
-  lighter-green: #e0f7c9,
+  red: #ff0000,
+  greenfooter: #84DE33,
+  white: #ffffff,
 );
 
-@function color($color-name) {
+@function color ($color-name){
   @return map-get($colors, $color-name);
 }
-
-body {
-  font-family: Segoe UI;
-  margin: 0;
-}
-.contenaire {
-  width: 80%;
-  max-width: 100%;
-  margin: auto;
-}
-.message {
-  color: color(bleu);
-  display: none;
-  p {
-    text-align: center;
-    font-size: 0.5rem;
-  }
-}
-.numero-reference {
-  h3 {
-    color: color(grey);
-    font-size: 1.3rem;
-    margin-top: 2rem;
-    text-align: center;
-  }
-  p {
-    color: color(bleu);
-    font-size: 1.2rem;
-    margin-top: 0;
-  }
-}
-.logo {
-  margin-left: 3.5em;
-  margin-top: 4em;
-  img {
-    margin-bottom: 0.5em;
-  }
-
-  a {
-    color: map-get($colors, bleu);
-    font-size: 1.4em;
-    text-align: center;
-    text-decoration: none;
-  }
-}
-.cher-client {
-  display: none;
-}
-.truc-astuce {
-  margin-top: 6em;
-
-  h2 {
-    color: color(dark-green);
-    font-size: 1.6em;
-    font-weight: bold;
-    margin-left: 1.5em;
-    margin-bottom: 0.4em;
-  }
-  img {
-    width: 11em;
-    margin-left: 5em;
-    margin-top: 0;
-  }
-}
-
-.truc-astuce .potager {
-  background-color: white;
-  border: 1px solid rgba(136, 136, 136, 0.5);
-  box-shadow: 2px 2px 4px black;
-  margin-top: 2em;
-  margin-bottom: 6em;
-  padding-bottom: 1em;
-
-  img {
-    margin-top: 3em;
-    margin-left: 4em;
-  }
-  h2 {
-    font-size: 1.3em;
-  }
-  p {
-    font-size: 1em;
-    color: grey;
-    margin-left: 1em;
-  }
-  a {
-    text-decoration: none;
-    color: color(bleu);
-    margin-left: 12em;
-  }
-}
-.truc-astuce .idées {
-  background-color: white;
-  border: 1px solid rgba(136, 136, 136, 0.5);
-  box-shadow: 2px 2px 4px black;
-  margin-top: 2em;
-  margin-bottom: 4em;
-  padding-bottom: 1em;
-  img {
-    width: 6em;
-    margin-left: 6em;
-    margin-top: 3em;
-  }
-  h2 {
-    font-size: 1.1em;
-  }
-  p {
-    font-size: 1em;
-    color: grey;
-    margin-left: 1em;
-  }
-  a {
-    text-decoration: none;
-    color: color(bleu);
-    margin-left: 12em;
-  }
-}
-.promo {
-  margin: 0;
-}
-.tendese-wrapper {
-  h2 {
-    color: color(dark-green);
-    margin-left: 3em;
-    font-size: 1.7em;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  h3 {
-    color: color(grey);
-    text-align: center;
-    font-size: 1.3;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  h1 {
-    color: color(dark-green);
-    text-align: center;
-    font-size: 3em;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  img {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-.marque {
-  color: color(dark-green);
-  font-size: 1.2em;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 2.5em;
-  .t5 {
-    font-weight: lighter;
-  }
-}
-.icones {
-  display: none;
-}
-.fiche-tech-wrapper a {
-  background-color: color(bleu);
-  font-size: 1.5em;
-  padding: 0.5em 2em;
-  color: white;
-  border-radius: 30em;
-  text-decoration: none;
-  margin-left: 1em;
-}
-.pelouz {
-  margin-top: 3em;
-  margin-left: -5em;
-  width: 26em;
-  margin-bottom: 0;
-}
-
-.carte-wrapper {
-  background-color: color(lighter-green);
-  padding-bottom: 2em;
-  margin-top: 0;
-
-  p {
-    color: color(medium-green);
-    margin-left: 3em;
-    padding-top: 5em;
-    margin-bottom: 0;
-    font-size: 1.2em;
-    margin-top: 0;
-  }
-}
-.carte-wrapper .pourcentage {
-  h1 {
-    font-size: 9em;
-    font-family: Engravers MT;
-    color: color(dark-green);
-    margin-left: 0.2em;
-    margin-top: 0;
-    margin-bottom: 0;
-    position: relative;
-
-    .cent {
-      position: absolute;
-      color: color(dark-green);
-      font-size: 0.3em;
-      font-family: Engravers MT;
-      margin-top: 0;
+/*section carte de fidélité*/
+.fidelité{
+    h1{
+      color: color(bleu);
     }
-  }
-  .toutes p {
-    color: color(medium-green);
-    font-size: 1.3em;
-    font-weight: bold;
-    line-height: 1.6em;
-    margin-left: 1em;
-    margin-top: 0;
-    padding-top: 0;
-    width: 80%;
-  }
+    li {
+      list-style: none;
+      line-height: 20px;
+    }
+    img{
+      display: none;
+    }
 }
-.recomp {
-  margin-right: 3em;
-  margin-top: 1.5em;
-}
-.recomp p {
-  color: white;
-  font-size: 0.8em;
-  font-weight: bold;
-  text-align: center;
-  padding: 1em 0;
-  background-color: color(bleu);
-  border-radius: 0.5em;
-}
-.grace {
-  display: none;
-}
-.carte-wrapper img {
-  margin-left: -20.5em;
-  margin-top: 4em;
-}
-.bonhomme {
-  display: none;
-}
+/*footer*/
+footer{
+  background-color: color(greenfooter);
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20%;
+    .reseaux-socio{
+      position: absolute;
+      bottom: 0;
+      left: 20%;
+        a:nth-child(3) img{
+          width: 80px;
+        }
+    }
+      ul{
+        margin-bottom: 50px;
+        li{
+        list-style: none;
+          a{
+            text-decoration: none;
+            color: color(white);
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            font-size: larger;
+              a:nth-child(2){
+                margin-bottom: 10px;
+                background-color: yellow;
+              }
+          }
+        }
+      }
+    p{
+      line-height: 5px;
+        }
+        .desa {
+          margin-top: 30px;
+            p{
+              line-height: 20px;
+            }
+            a{
+              color: color(bleu);
+            }
+          }
+}/*fin du footer*/
